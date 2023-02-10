@@ -167,7 +167,7 @@ get_header(); ?>
         <div class="banner">
             <a href="https://www.amazon.co.jp/s?i=merchant-items&me=AHK8CEFCJ74SA" target="_blank"><img src="<?php bloginfo('template_url') ?>/common/img/top/banner_01.jpg" width="544" height="100" alt="Amazon"></a>
             <a href="https://auctions.yahoo.co.jp/seller/aniera2015" target="_blank"><img src="<?php bloginfo('template_url') ?>/common/img/top/banner_02.jpg" width="544" height="100" alt="ヤフオク"></a>
-            <a href="https://store.shopping.yahoo.co.jp/aniera/" target="_blank"><img src="<?php bloginfo('template_url') ?>/common/img/top/banner_03.jpg" width="544" height="100" alt="Y!ショップ"></a>
+            <a href="https://mercari-shops.com/shops/QfKJkXErsjibK37Ka7fmtg" target="_blank"><img src="<?php bloginfo('template_url') ?>/common/img/top/banner_mercari.jpg" width="544" height="100" alt="メルカリ"></a>
             <a href="https://x.aniera.jp/" target="_blank"><img src="<?php bloginfo('template_url') ?>/common/img/top/banner_05.jpg" width="544" height="100" alt="ANIERA-X"></a>
         </div>
     </div>
