@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: 宅配買取
+ * Template Name: 売れば売るほどプラスアップキャンペーン
  * Template Post Type: page
  */
 
@@ -11,7 +11,7 @@ get_header(); ?>
   <div class="wrapper1 lp-wrapper lead__bg">
     <section class="wrapper-lead lp-wrapper-lead ">
       <div class="lead lead__lp">
-        <p class="lead__catch-copy">アニメグッズ売るならアニエラ！高価買取お任せ下さい！</p>
+        <p class="lead__catch-copy">売れば売るほどプラスアップキャンペーン</p>
         <div class="lead__title-wrap">
           <p class="lead__area-copy">全国対応！送料無料！</p>
           <h2 class="lead__title"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/title.svg" width="692" height="67" alt="アニメグッズ高価買取!"></h2>
@@ -90,7 +90,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
 
           </ul>
         </div>
-        <p class="news__btn"><a href="/blog_cat/info-kaitori/" class="link__inner">一覧を見る</a></p>
+        <p class="news__btn"><a href="/blog_cat/info/" class="link__inner">一覧を見る</a></p>
       </div>
       <!-- <div class="u-lp-btn">
         <a href="<?php echo esc_url(home_url('ec/contact')); ?>" class="u-lp-btn__text"><span class="u-lp-btn__icon">今すぐお申込み!</span></a>
