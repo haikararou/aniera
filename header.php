@@ -21,6 +21,13 @@
 <meta name="description" content="<?php print_description(); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/common/img/favicon.ico">
 <?php wp_head(); ?>
+
+<?php if(is_page('purchase')): ?>
+<link rel='stylesheet' id='theme-common-css'  href='https://aniera.jp/wp-content/themes/aniera/common/css/lp.css?ver=5.8.1' type='text/css' media='all' />
+<?php endif; ?>
+<?php if(is_page('plusupcp')): ?>
+<link rel='stylesheet' id='theme-common-css'  href='https://aniera.jp/wp-content/themes/aniera/common/css/lp2.css?ver=5.8.1' type='text/css' media='all' />
+<?php endif; ?>
 </head>
 
 <?php get_template_part('inc/svg'); ?>
