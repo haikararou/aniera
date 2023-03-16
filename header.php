@@ -26,6 +26,7 @@
 <link rel='stylesheet' id='theme-common-css'  href='https://aniera.jp/wp-content/themes/aniera/common/css/lp.css?ver=5.8.1' type='text/css' media='all' />
 <?php endif; ?>
 <?php if(is_page('plusupcp')): ?>
+<link rel='stylesheet' id='theme-common-css'  href='https://aniera.jp/wp-content/themes/aniera/common/css/lp.css?ver=5.8.1' type='text/css' media='all' />
 <link rel='stylesheet' id='theme-common-css'  href='https://aniera.jp/wp-content/themes/aniera/common/css/lp2.css?ver=5.8.1' type='text/css' media='all' />
 <?php endif; ?>
 </head>
