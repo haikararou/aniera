@@ -17,7 +17,7 @@ get_header(); ?>
           <h2 class="lead__title"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/title.svg" width="692" height="67" alt="アニメグッズ高価買取!"></h2>
         </div>
 
-        <div>
+        <div class="lead__mv_outer">
           <figure class="lead__mv"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/lead-kv.svg" width="745" height="240" alt=""></figure>
         </div>
         <ul class="link__lists lead__link">
@@ -169,7 +169,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
               <dl class="u-detail__wrap">
                 <div class="u-detail__inner">
                   <dt class="u-detail__term">キャンペーン期間</dt>
-                  <dd class="u-detail__desc -bold -small">2023年<span class="large">3</span>月<span class="large">1</span>日(水)～2023年<span class="large">4</span>月<span class="large">9</span>日(日)</dd>
+                  <dd class="u-detail__desc -bold -small">2023年<span class="large">3</span>月<span class="large">1</span>日(水)～2023年<span class="large">5</span>月<span class="large">7</span>日(日)</dd>
                 </div>
                 <div class="u-detail__inner">
                   <dt class="u-detail__term">対象者</dt>

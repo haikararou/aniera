@@ -958,14 +958,19 @@ ul.lead__link {
   .lead__lp::after {
     background-image: url(../img/lp/chara-pair.png);
     background-position: center center;
-    top: 90px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     /* width: 270px;
     height: 275px; */
     /* width: 84%; */
-    width: 84%;
-    height: 25%;
+    /* width: 84%;
+    height: 25%; */
+    width: auto;
+    height: 240px;
+  }
+  .lead__mv_outer {
+    padding-top: 160px;
   }
   .lead__lp::before {
     display: none;

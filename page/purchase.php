@@ -160,7 +160,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
       <div class="u-lp-inner">
         <p>DVD / Blu-ray / CD / ゲーム / フィギュア / 食玩 / 抱き枕カバー / タペストリー / ぬいぐるみ / 版権許諾コスプレ衣装 / ラバーストラップ / トレカ / グラス / きゅんキャラ / ねんどろいど / figma / コラボグッズ / 複製原画 / アクリルキーホルダー / ZIPPO / セル画 / ドール / 同人ソフト / 同人誌（二次創作を除く） / ボードゲーム / 声優グッズ / 特撮関連グッズ / テレカ・金券 / おもちゃ / レコード、他多数！</p>
         <div class="u-block__inner">
-          <p class="u-head-wrap"><span class="u-head">○お売りできるもの</span></p>
+          <p class="u-head-wrap"><span class="u-head">○お売りいただけるもの</span></p>
           <dl class="dropdown__list -disc list__dropdown">
             <dt class="u-dropdown__title">CD</dt>
             <dd class="u-dropdown__conts">
@@ -262,6 +262,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
             <li class="list-ng__item">カビや重度の汚れがある</li>
             <li class="list-ng__item">ケース・ディスク欠品の商品</li>
             <li class="list-ng__item">雑誌等の付録単体品</li>
+            <li class="list-ng__item">プライズ品</li>
           </ul>
         </div>
         <div class="u-lp-btn">
