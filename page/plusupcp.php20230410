@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: 宅配買取
+ * Template Name: 売れば売るほどプラスアップキャンペーン
  * Template Post Type: page
  */
 
@@ -99,7 +99,11 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
 
 
 
-    <section class="wrapper-lead lp-wrapper-lead">
+
+
+
+
+    <section class="wrapper-lead lp-wrapper-lead" id="plusupcp">
       <h2 class="u-lp-title">
       <span class="title-inner">
         <figure class="title-en" ><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/campaign.svg" width="137" height="13" alt=""></figure>
@@ -107,70 +111,143 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
       </span>
       </h2>
 
-      <p class="cp__lead"><span class="em">夏のキャンペーン開催！<br>買取金額大幅UP</span></p>
+      <!-- <p class="cp__lead"><span class="em">お引越し・新生活応援！<br>買取金額大幅UP</span></p>
+      <figure class="cp__banner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/cp-banner_22SP_1.jpg" width="800" height="426" alt="'22 SPRING CAMPAIGN"></figure> -->
 
-      <figure class="cp__banner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/cp-banner_23_summer.png" width="800" height="426" alt="'23 SUMMER CAMPAIGN"></figure>
+
+      <section class="wrapper-lead lp-wrapper-lead000">
+        <div class="lead lead__lp">
+          <div class="lead__title-wrap">
+            <p class="lead__area-copy">売れば売るほど</p>
+            <h2 class="lead__title"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp2/title.svg" width="692" height="67" alt="プラスアップキャンペーン"></h2>
+          </div>
+        </div>
+        <dl class="cp__list2">
+          <div class="cp__list-inner div1">
+            <dt class="cp__list-term">10～19点</dt>
+            <dd class="cp__list-desc">+1,000円UP!!</dd>
+          </div>
+          <div class="cp__list-inner div2">
+            <dt class="cp__list-term">20～39点</dt>
+            <dd class="cp__list-desc">+2,500円UP!!</dd>
+          </div>
+          <div class="cp__list-inner div3">
+            <dt class="cp__list-term">40～59点</dt>
+            <dd class="cp__list-desc">+5,000円UP!!</dd>
+          </div>
+          <div class="cp__list-inner div4">
+            <dt class="cp__list-term">60～79点</dt>
+            <dd class="cp__list-desc">+8,000円UP!!</dd>
+          </div>
+          <div class="cp__list-inner div5">
+            <dt class="cp__list-term">80～99点</dt>
+            <dd class="cp__list-desc">+12,000円UP!!</dd>
+          </div>
+          <div class="cp__list-inner div6">
+            <dt class="cp__list-term">100～199点</dt>
+            <dd class="cp__list-desc">+20,000円UP!!</dd>
+          </div>
+          <div class="cp__list-inner div7">
+            <dt class="cp__list-term">200点以上</dt>
+            <dd class="cp__list-desc">+50,000円UP!!</dd>
+          </div>
+        </dl>
+        <p class="u-detail__caution u-text__center">※査定金額が100円以上の商品が対象になります。</p>
+      
+    </section>
+
+
 
       <div class="u-block__inner">
         <section class="u-unit">
-          <h3 class="cp__lead">夏のキャンペーン開催！<br><span class="em">買取金額大幅UP</span></h3>
-          <p class="u-head-wrap"><span  class="u-head">買取アップの条件</span></p>
-          <p class="cp__text">期間中に宅配買取をお申し込みいただくと、点数・査定合計額に関わらず<br><span class="em">買取金額20%プラスアップ！</span></p>
-          <div class="u-detail">
-            <dl class="u-detail__wrap">
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">キャンペーン期間</dt>
-                <dd class="u-detail__desc -bold -small">2023年<span class="large">6</span>月<span class="large">9</span>日(金)～2023年<span class="large">7</span>月<span class="large">20</span>日(木)</dd>
+          <h3 class="cp__lead">まとめて売れば、<br><span class="em">最大50,000円UP!!</span></h3>
+          <p class="cp__text"><span class="em">CD・DVD・Blu-ray・ゲーム・グッズの組み合わせは自由！<br>まとめてお得にお売りいただけます！</span></p>
+
+          <div class="conts">
+            <p class="u-head-wrap"><span  class="u-head">買取アップの条件</span></p>
+            <div class="u-detail">
+              <dl class="u-detail__wrap">
+                <div class="u-detail__inner">
+                  <dt class="u-detail__term">キャンペーン期間</dt>
+                  <dd class="u-detail__desc -bold -small">2023年<span class="large">3</span>月<span class="large">1</span>日(水)～2023年<span class="large">4</span>月<span class="large">9</span>日(日)</dd>
+                </div>
+                <div class="u-detail__inner">
+                  <dt class="u-detail__term">対象者</dt>
+                  <dd class="u-detail__desc">期間中に弊社宅配買取をお申込みのお客様</dd>
+                </div>
+                <div class="u-detail__inner">
+                  <dt class="u-detail__term">対象商品</dt>
+                  <dd class="u-detail__desc">1点が査定額100円以上の買取可能商品すべて</dd>
+                </div>
+              </dl>
+              <p class="u-detail__caution">※キャンペーン専用申込コード等はございません。ボーナスは自動で加算されます。<br>※同一タイトル商品は3点までカウントいたします。<br>※他キャンペーン・クーポンとの併用はできません。いずれか付与額の高い方を自動で適用させて頂きます。</p>
+            </div>
+          </div>
+
+          <div class="conts">
+            <p class="u-head-wrap"><span class="u-head">　　　　買取 UP 金額　　　　</span></p>
+            <dl class="cp__list">
+              <div class="cp__list-inner">
+                <dt class="cp__list-term">10～19点</dt>
+                <dd class="cp__list-desc">+1,000円UP!!</dd>
               </div>
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">対象者</dt>
-                <dd class="u-detail__desc">期間中に宅配買取をお申し込みのお客様全員</dd>
+              <div class="cp__list-inner">
+                <dt class="cp__list-term">20～39点</dt>
+                <dd class="cp__list-desc">+2,500円UP!!</dd>
               </div>
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">対象商品</dt>
-                <dd class="u-detail__desc">買取可能商品すべて</dd>
+              <div class="cp__list-inner">
+                <dt class="cp__list-term">40～59点</dt>
+                <dd class="cp__list-desc">+5,000円UP!!</dd>
+              </div>
+              <div class="cp__list-inner">
+                <dt class="cp__list-term">60～79点</dt>
+                <dd class="cp__list-desc">+8,000円UP!!</dd>
+              </div>
+              <div class="cp__list-inner">
+                <dt class="cp__list-term">80～99点</dt>
+                <dd class="cp__list-desc">+12,000円UP!!</dd>
+              </div>
+              <div class="cp__list-inner">
+                <dt class="cp__list-term">100～199点</dt>
+                <dd class="cp__list-desc">+20,000円UP!!</dd>
+              </div>
+              <div class="cp__list-inner">
+                <dt class="cp__list-term">200点以上</dt>
+                <dd class="cp__list-desc">+50,000円UP!!</dd>
               </div>
             </dl>
-            <p class="u-detail__caution">※キャンペーン専用申込コード等はございません。自動でボーナスが加算されます。<br>※他のキャンペーン・クーポンと併用はできません。いずれか合計金額の高い方が適用されます。</p>
+            <p class="u-detail__caution u-text__center">※査定金額が100円以上の商品が対象になります。</p>
           </div>
-        </section>
-        <section class="u-unit">
-          <h3 class="cp__lead"><span class="em">お手続きは簡単！</span></h3>
-          <p class="cp__text"><span class="em">期間中に宅配買取をお申し込みするだけ！<br></span>ご利用頂いた方全員に自動で20%ボーナスアップ致します♪<br>24時間365日OK！！インターネットからカンタンお申し込み！</p>
-          <p class="u-head-wrap"><span  class="u-head">買取アップの例</span></p>
-          <dl class="cp__list">
-            <div class="cp__list-inner cp__list-top">
-              <dt class="cp__list-term">査定合計額</dt>
-              <dd class="cp__list-desc">今だけ20%UP!</dd>
+
+          <p class="u-head-wrap"><span  class="u-head">キャンペーン適用例</span></p>
+          <p class="cp__text"><span class="em">DVD・Blu-ray・ゲーム・グッズの組み合わせは自由！<br>どうせ売るならまとめて売ってお得に現金化！</p>
+          <div class="cp_example">
+            <h2><span>CD・DVD・ゲームなどまとめて50点</span></h2>
+            <div class="cp_example_flex">
+              <div class="cp_example_flex01">通常査定金額 <span>8,000</span>円</div>
+              <div class="cp_example_flex02">+ 5,000円UP</div>
+              <div class="cp_example_flex03">合計買取金額 <span>13,000</span>円！</div>
             </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">1,000円</dt>
-              <dd class="cp__list-desc">1,200円<span>(＋200円！)</span></dd>
+          </div>
+          <div class="cp_example">
+            <h2><span>Blu-ray・ゲーム・フィギュアなど200点</span></h2>
+            <div class="cp_example_flex">
+              <div class="cp_example_flex01">通常査定金額 <span>50,000</span>円</div>
+              <div class="cp_example_flex02">+ 50,000円UP</div>
+              <div class="cp_example_flex03">合計買取金額 <span>100,000</span>円！</div>
             </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">5,500円</dt>
-              <dd class="cp__list-desc">6,600円<span>(＋1,100円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">18,000円</dt>
-              <dd class="cp__list-desc">21,600円<span>(＋3,600円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">50,500円</dt>
-              <dd class="cp__list-desc">60,600円<span>(＋10,100円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">130,000円</dt>
-              <dd class="cp__list-desc">156,000円<span>(＋26,000円！)</span></dd>
-            </div>
-          </dl>
-          <p class="cp__text"><span class="em">金額の下限・上限はございません！</span></p>
+          </div>
         </section>
       </div>
       <div class="u-lp-btn">
         <a href="https://kaitori.aniera.jp/" target="_blank" class="u-lp-btn__text"><span class="u-lp-btn__icon">今すぐお申込み!</span></a>
       </div>
     </section>
+
+
+
+
+
 
 
     <section class="wrapper-lead lp-wrapper-lead">
@@ -236,7 +313,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
       <div class="u-lp-inner">
         <p>DVD / Blu-ray / CD / ゲーム / フィギュア / 食玩 / 抱き枕カバー / タペストリー / ぬいぐるみ / 版権許諾コスプレ衣装 / ラバーストラップ / トレカ / グラス / きゅんキャラ / ねんどろいど / figma / コラボグッズ / 複製原画 / アクリルキーホルダー / ZIPPO / セル画 / ドール / 同人ソフト / 同人誌（二次創作を除く） / ボードゲーム / 声優グッズ / 特撮関連グッズ / テレカ・金券 / おもちゃ / レコード、他多数！</p>
         <div class="u-block__inner">
-          <p class="u-head-wrap"><span class="u-head">○お売りいただけるもの</span></p>
+          <p class="u-head-wrap"><span class="u-head">○お売りできるもの</span></p>
           <dl class="dropdown__list -disc list__dropdown">
             <dt class="u-dropdown__title">CD</dt>
             <dd class="u-dropdown__conts">
@@ -338,7 +415,6 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
             <li class="list-ng__item">カビや重度の汚れがある</li>
             <li class="list-ng__item">ケース・ディスク欠品の商品</li>
             <li class="list-ng__item">雑誌等の付録単体品</li>
-            <li class="list-ng__item">プライズ品</li>
           </ul>
         </div>
         <div class="u-lp-btn">

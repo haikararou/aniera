@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: 宅配買取
+ * Template Name: 宅配買取202306
  * Template Post Type: page
  */
 
@@ -99,6 +99,9 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
 
 
 
+
+
+
     <section class="wrapper-lead lp-wrapper-lead">
       <h2 class="u-lp-title">
       <span class="title-inner">
@@ -171,6 +174,9 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
         <a href="https://kaitori.aniera.jp/" target="_blank" class="u-lp-btn__text"><span class="u-lp-btn__icon">今すぐお申込み!</span></a>
       </div>
     </section>
+
+
+
 
 
     <section class="wrapper-lead lp-wrapper-lead">

@@ -90,88 +90,12 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
 
           </ul>
         </div>
-        <p class="news__btn"><a href="/blog_cat/info-kaitori/" class="link__inner">一覧を見る</a></p>
+        <p class="news__btn"><a href="/blog_cat/notice/" class="link__inner">一覧を見る</a></p>
       </div>
       <!-- <div class="u-lp-btn">
         <a href="<?php echo esc_url(home_url('ec/contact')); ?>" class="u-lp-btn__text"><span class="u-lp-btn__icon">今すぐお申込み!</span></a>
       </div> -->
     </section>
-
-
-
-    <section class="wrapper-lead lp-wrapper-lead">
-      <h2 class="u-lp-title">
-      <span class="title-inner">
-        <figure class="title-en" ><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/campaign.svg" width="137" height="13" alt=""></figure>
-        <span class="title-jp">キャンペーン情報</span>
-      </span>
-      </h2>
-
-      <p class="cp__lead"><span class="em">夏のキャンペーン開催！<br>買取金額大幅UP</span></p>
-
-      <figure class="cp__banner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/cp-banner_23_summer.png" width="800" height="426" alt="'23 SUMMER CAMPAIGN"></figure>
-
-      <div class="u-block__inner">
-        <section class="u-unit">
-          <h3 class="cp__lead">夏のキャンペーン開催！<br><span class="em">買取金額大幅UP</span></h3>
-          <p class="u-head-wrap"><span  class="u-head">買取アップの条件</span></p>
-          <p class="cp__text">期間中に宅配買取をお申し込みいただくと、点数・査定合計額に関わらず<br><span class="em">買取金額20%プラスアップ！</span></p>
-          <div class="u-detail">
-            <dl class="u-detail__wrap">
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">キャンペーン期間</dt>
-                <dd class="u-detail__desc -bold -small">2023年<span class="large">6</span>月<span class="large">9</span>日(金)～2023年<span class="large">7</span>月<span class="large">20</span>日(木)</dd>
-              </div>
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">対象者</dt>
-                <dd class="u-detail__desc">期間中に宅配買取をお申し込みのお客様全員</dd>
-              </div>
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">対象商品</dt>
-                <dd class="u-detail__desc">買取可能商品すべて</dd>
-              </div>
-            </dl>
-            <p class="u-detail__caution">※キャンペーン専用申込コード等はございません。自動でボーナスが加算されます。<br>※他のキャンペーン・クーポンと併用はできません。いずれか合計金額の高い方が適用されます。</p>
-          </div>
-        </section>
-        <section class="u-unit">
-          <h3 class="cp__lead"><span class="em">お手続きは簡単！</span></h3>
-          <p class="cp__text"><span class="em">期間中に宅配買取をお申し込みするだけ！<br></span>ご利用頂いた方全員に自動で20%ボーナスアップ致します♪<br>24時間365日OK！！インターネットからカンタンお申し込み！</p>
-          <p class="u-head-wrap"><span  class="u-head">買取アップの例</span></p>
-          <dl class="cp__list">
-            <div class="cp__list-inner cp__list-top">
-              <dt class="cp__list-term">査定合計額</dt>
-              <dd class="cp__list-desc">今だけ20%UP!</dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">1,000円</dt>
-              <dd class="cp__list-desc">1,200円<span>(＋200円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">5,500円</dt>
-              <dd class="cp__list-desc">6,600円<span>(＋1,100円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">18,000円</dt>
-              <dd class="cp__list-desc">21,600円<span>(＋3,600円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">50,500円</dt>
-              <dd class="cp__list-desc">60,600円<span>(＋10,100円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">130,000円</dt>
-              <dd class="cp__list-desc">156,000円<span>(＋26,000円！)</span></dd>
-            </div>
-          </dl>
-          <p class="cp__text"><span class="em">金額の下限・上限はございません！</span></p>
-        </section>
-      </div>
-      <div class="u-lp-btn">
-        <a href="https://kaitori.aniera.jp/" target="_blank" class="u-lp-btn__text"><span class="u-lp-btn__icon">今すぐお申込み!</span></a>
-      </div>
-    </section>
-
 
     <section class="wrapper-lead lp-wrapper-lead">
       <h2 class="u-lp-title">
@@ -236,7 +160,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
       <div class="u-lp-inner">
         <p>DVD / Blu-ray / CD / ゲーム / フィギュア / 食玩 / 抱き枕カバー / タペストリー / ぬいぐるみ / 版権許諾コスプレ衣装 / ラバーストラップ / トレカ / グラス / きゅんキャラ / ねんどろいど / figma / コラボグッズ / 複製原画 / アクリルキーホルダー / ZIPPO / セル画 / ドール / 同人ソフト / 同人誌（二次創作を除く） / ボードゲーム / 声優グッズ / 特撮関連グッズ / テレカ・金券 / おもちゃ / レコード、他多数！</p>
         <div class="u-block__inner">
-          <p class="u-head-wrap"><span class="u-head">○お売りいただけるもの</span></p>
+          <p class="u-head-wrap"><span class="u-head">○お売りできるもの</span></p>
           <dl class="dropdown__list -disc list__dropdown">
             <dt class="u-dropdown__title">CD</dt>
             <dd class="u-dropdown__conts">
@@ -338,7 +262,6 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
             <li class="list-ng__item">カビや重度の汚れがある</li>
             <li class="list-ng__item">ケース・ディスク欠品の商品</li>
             <li class="list-ng__item">雑誌等の付録単体品</li>
-            <li class="list-ng__item">プライズ品</li>
           </ul>
         </div>
         <div class="u-lp-btn">

@@ -29,7 +29,6 @@ function get_allpost_page_link() {
 	$allpost_page = 'posts'; //記事一覧ページのスラッグ
 	return get_permalink( get_page_by_path($allpost_page)->ID );
 }
-
 /*
 //お問い合わせと送信完了（固定ページ）のスラッグをセットする
 $contact = 'contact';

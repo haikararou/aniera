@@ -246,9 +246,4 @@ function is_belog_page($page_slug = '') {
   }
   return $ret;
 }
-
-
-
-
 ?>
-

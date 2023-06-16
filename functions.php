@@ -3,23 +3,17 @@
 テーマでアイキャッチ機能を有効化
 -------------------------------------------------------------------------*/
 add_theme_support( 'post-thumbnails' );
-
-
 /* ---------------------------------------------------------------------
 ビジュアルエディタ内のテキストにCSSを適用
-
 適用するときは、以下のコメントアウトを外してください。
 この例は、テーマフォルダ内の/css/editor-style.cssに
 ビジュアルエディタ用のCSSを記述し、読み込んでいます。
 -------------------------------------------------------------------------*/
 //add_editor_style(get_template_directory_uri().'/common/css/editor-style.css' );
-
 /* ---------------------------------------------------------------------
 正しいURLを入力しないとログイン画面を表示しないようにする
 -------------------------------------------------------------------------*/
 remove_action( 'template_redirect', 'wp_redirect_admin_locations', 1000 );
-
-
 /* ---------------------------------------------------------------------
 CSS・JSを登録する
 -------------------------------------------------------------------------*/
@@ -36,7 +30,6 @@ function register_files() {
 	//wp_register_style( 'fullpage-css', get_template_directory_uri().'/css/fullpage.min.css' );
 	//wp_register_style( 'theme-construction', get_template_directory_uri().'/css/construction.css' );
 	//wp_register_style( 'theme-style', get_template_directory_uri().'/css/style.css' );
-
 	wp_deregister_script('jquery');
 	wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js');
 	//wp_enqueue_script( 'yubinbango', 'https://yubinbango.github.io/yubinbango/yubinbango.js', array(), null, true );
@@ -59,7 +52,6 @@ function my_enqueue_files() {
 	register_files();
 	wp_dequeue_style( 'wp-block-library' );
 	wp_dequeue_style( 'wp-block-library-theme' );
-
 	wp_enqueue_style( 'theme-common' );
 	wp_enqueue_style( 'picturefill' );
 	wp_enqueue_style( 'stylemin' );
@@ -84,45 +76,30 @@ function my_enqueue_files() {
 	wp_enqueue_script( 'swiper-js' );
 }
 add_action( 'wp_enqueue_scripts', 'my_enqueue_files' );
-
-
-
 /* ---------------------------------------------------------------------
 その他の機能
 -------------------------------------------------------------------------*/
-
 /*初期設定*/
 include_once( get_template_directory().'/functions/initial-setting.php' );
-
 /*メタタグ類の設定*/
 include_once( get_template_directory().'/functions/meta-setting.php' );
-
 /*カスタム投稿タイプを追加*/
 //include_once( get_template_directory().'/functions/custompost.php' );
-
 /*便利な関数*/
 include_once( get_template_directory().'/functions/utility.php' );
-
 /*ダッシュボードのカスタマイズ*/
 include_once( get_template_directory().'/functions/dashboard.php' );
-
 function my_bizcalendar_options() {
     return 'edit_pages';
 }
 add_filter( 'option_page_capability_bizcalendar_options', 'my_bizcalendar_options' );
-
-
 //include_once( get_template_directory().'/functions/eventdate.php' );
 //include_once( get_template_directory().'/functions/multidatepicker.php' );
-
-
 /*ContactForm7 複数チェックボックスを必須*/
 /*
 function wpcf7_validate_customize( $result, $tags ) {
-
 	$form = WPCF7_Submission::get_instance();
 	$posted_datas = $form->get_posted_data();
-
 	$names = array( 'catalog001', 'catalog002', 'catalog003', 'catalog004', 'catalog005','catalog006', 'catalog007', 'catalog008', 'catalog101', 'catalog102', 'catalog103' );
 	$counter = 0;
 	foreach ( $names as $name ) {
@@ -131,14 +108,10 @@ function wpcf7_validate_customize( $result, $tags ) {
 	if ( $counter < 1 ) {
 		$result->invalidate( 'catalog103', '1 個以上選択してください。' );
 	}
-
 	return $result;
 }
-
 add_filter( 'wpcf7_validate', 'wpcf7_validate_customize', 11, 2 );
 */
-
-
 /* the_archive_title 余計な文字を削除 */
 add_filter( 'get_the_archive_title', function ($title) {
     if (is_category()) {
@@ -156,12 +129,9 @@ add_filter( 'get_the_archive_title', function ($title) {
 	} elseif (is_404()) {
 	    $title = '「404」ページが見つかりません';
 	} else {
-
 	}
     return $title;
 });
-
-
 //検索結果にカスタム投稿タイプの記事も含める
 /*
 function filter_search( $query ) {
@@ -171,8 +141,6 @@ function filter_search( $query ) {
 }
 add_filter( 'pre_get_posts', 'filter_search' );
 */
-
-
 //カスタム投稿用post_typeセット
 add_filter('template_include','custom_search_template');
 function custom_search_template($template){
@@ -185,14 +153,10 @@ function custom_search_template($template){
   }
   return $template;
 }
-
-
 //Advanced Custom Fields PRO オプションページ追加
 // if( function_exists('acf_add_options_page') ) {
 // 	acf_add_options_page();
 //   }
-
-
 //WPタグのアーカイブページ（tag.php）にカスタム投稿タイプも表示させる
 function add_post_tag_archive( $wp_query ) {
 if ($wp_query->is_main_query() && $wp_query->is_tag()) {
@@ -200,9 +164,6 @@ if ($wp_query->is_main_query() && $wp_query->is_tag()) {
 }
 }
 add_action( 'pre_get_posts', 'add_post_tag_archive' , 10 , 1);
-
-
-
 /*--feedのテンプレートをカスタマイズ----------------------------------------------*/
 remove_filter('do_feed_rss2', 'do_feed_rss2', 10);
 function custom_feed_rss2(){
@@ -210,3 +171,4 @@ function custom_feed_rss2(){
 	load_template(get_template_directory() . $template_file);
 }
 add_action('do_feed_rss2', 'custom_feed_rss2', 10);
+?>
