@@ -109,7 +109,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
 
       <p class="cp__lead"><span class="em">夏のキャンペーン開催！<br>買取金額大幅UP</span></p>
 
-      <figure class="cp__banner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/cp-banner_23_summer.png" width="800" height="426" alt="'23 SUMMER CAMPAIGN"></figure>
+      <figure class="cp__banner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/cp-banner_23_summer_2.png" width="800" height="426" alt="'23 SUMMER CAMPAIGN"></figure>
 
       <div class="u-block__inner">
         <section class="u-unit">
@@ -120,7 +120,7 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
             <dl class="u-detail__wrap">
               <div class="u-detail__inner">
                 <dt class="u-detail__term">キャンペーン期間</dt>
-                <dd class="u-detail__desc -bold -small">2023年<span class="large">6</span>月<span class="large">9</span>日(金)～2023年<span class="large">7</span>月<span class="large">20</span>日(木)</dd>
+                <dd class="u-detail__desc -bold -small">2023年<span class="large">6</span>月<span class="large">9</span>日(金)～2023年<span class="large">8</span>月<span class="large">23</span>日(水)</dd>
               </div>
               <div class="u-detail__inner">
                 <dt class="u-detail__term">対象者</dt>
