@@ -99,78 +99,8 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
 
 
 
-    <section class="wrapper-lead lp-wrapper-lead">
-      <h2 class="u-lp-title">
-      <span class="title-inner">
-        <figure class="title-en" ><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/campaign.svg" width="137" height="13" alt=""></figure>
-        <span class="title-jp">キャンペーン情報</span>
-      </span>
-      </h2>
 
-      <p class="cp__lead"><span class="em">夏のキャンペーン開催！<br>買取金額大幅UP</span></p>
 
-      <figure class="cp__banner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/common/img/lp/cp-banner_23_summer_2.png" width="800" height="426" alt="'23 SUMMER CAMPAIGN"></figure>
-
-      <div class="u-block__inner">
-        <section class="u-unit">
-          <h3 class="cp__lead">夏のキャンペーン開催！<br><span class="em">買取金額大幅UP</span></h3>
-          <p class="u-head-wrap"><span  class="u-head">買取アップの条件</span></p>
-          <p class="cp__text">期間中に宅配買取をお申し込みいただくと、点数・査定合計額に関わらず<br><span class="em">買取金額20%プラスアップ！</span></p>
-          <div class="u-detail">
-            <dl class="u-detail__wrap">
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">キャンペーン期間</dt>
-                <dd class="u-detail__desc -bold -small">2023年<span class="large">6</span>月<span class="large">9</span>日(金)～2023年<span class="large">8</span>月<span class="large">23</span>日(水)</dd>
-              </div>
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">対象者</dt>
-                <dd class="u-detail__desc">期間中に宅配買取をお申し込みのお客様全員</dd>
-              </div>
-              <div class="u-detail__inner">
-                <dt class="u-detail__term">対象商品</dt>
-                <dd class="u-detail__desc">買取可能商品すべて</dd>
-              </div>
-            </dl>
-            <p class="u-detail__caution">※キャンペーン専用申込コード等はございません。自動でボーナスが加算されます。<br>※他のキャンペーン・クーポンと併用はできません。いずれか合計金額の高い方が適用されます。</p>
-          </div>
-        </section>
-        <section class="u-unit">
-          <h3 class="cp__lead"><span class="em">お手続きは簡単！</span></h3>
-          <p class="cp__text"><span class="em">期間中に宅配買取をお申し込みするだけ！<br></span>ご利用頂いた方全員に自動で20%ボーナスアップ致します♪<br>24時間365日OK！！インターネットからカンタンお申し込み！</p>
-          <p class="u-head-wrap"><span  class="u-head">買取アップの例</span></p>
-          <dl class="cp__list">
-            <div class="cp__list-inner cp__list-top">
-              <dt class="cp__list-term">査定合計額</dt>
-              <dd class="cp__list-desc">今だけ20%UP!</dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">1,000円</dt>
-              <dd class="cp__list-desc">1,200円<span>(＋200円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">5,500円</dt>
-              <dd class="cp__list-desc">6,600円<span>(＋1,100円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">18,000円</dt>
-              <dd class="cp__list-desc">21,600円<span>(＋3,600円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">50,500円</dt>
-              <dd class="cp__list-desc">60,600円<span>(＋10,100円！)</span></dd>
-            </div>
-            <div class="cp__list-inner">
-              <dt class="cp__list-term">130,000円</dt>
-              <dd class="cp__list-desc">156,000円<span>(＋26,000円！)</span></dd>
-            </div>
-          </dl>
-          <p class="cp__text"><span class="em">金額の下限・上限はございません！</span></p>
-        </section>
-      </div>
-      <div class="u-lp-btn">
-        <a href="https://kaitori.aniera.jp/" target="_blank" class="u-lp-btn__text"><span class="u-lp-btn__icon">今すぐお申込み!</span></a>
-      </div>
-    </section>
 
 
     <section class="wrapper-lead lp-wrapper-lead">
@@ -684,6 +614,14 @@ if($custom_posts): foreach($custom_posts as $post): setup_postdata($post); ?>
             <dt class="u-dropdown__title"><span class="faq__dropdown-icon">身分証を提示するのはなぜですか？</span></dt>
             <dd class="u-dropdown__conts">
               <p>古物営業法に基づき、法律でご提示が義務付けられております。</p>
+            </dd>
+            <dt class="u-dropdown__title"><span class="faq__dropdown-icon">同一タイトルの商品は買い取っていただけるのでしょうか？</span></dt>
+            <dd class="u-dropdown__conts">
+              <p>同一商品は基本的に3点まで減額なしの通常査定とさせていただいております。ただし、商品タイトルや現在庫数などにより、通常の買取価格が変動する可能性がございます。多数の同一商品をお売りいただく予定のお客様は一度お問い合わせいただきますようお願い申し上げます。</p>
+              <ul class="aste_list">
+                <li>未開封の同一商品が複数個大量にある場合には、買取をお断りさせていただく場合がございます。</li>
+                <li>4点目以降は通常の査定価格より減額となります。</li>
+              </ul>
             </dd>
           </dl>
         </div>

@@ -35,7 +35,7 @@
                 <dl>
                     <dt><a href="<?php echo home_url(); ?>/">ホーム</a></dt>
                     <dt><a href="<?php echo home_url(); ?>/service/">サービス</a></dt>
-                    <dt><a href="<?php echo home_url(); ?>/blog/">アニエラブログ</a></dt>
+                    <dt><a href="https://mag.aniera.jp/" target="_blank">アニエラブログ</a></dt>
                     <dt><a href="<?php echo home_url(); ?>/purchase/">宅配買取</a></dt>
                     <dd><a href="<?php echo esc_url(home_url('purchase/kaitori-guide')); ?>">宅配買取の流れ</a></dd>
                     <dd><a href="<?php echo esc_url(home_url('purchase/packing')); ?>">梱包ガイド</a></dd>
@@ -47,7 +47,7 @@
             </div>
             <div class="spNavC">
                 <dl>
-                    <dt><a href="<?php echo home_url(); ?>/store/">オンラインストア</a></dt>
+                    <dt><a href="https://aniera.jp/" target="_blank">オンラインストア</a></dt>
                     <dd class="h_logout"></dd>
                     <dd class="h_login"></dd>
                     <dd><a href="/ec/favorite">お気に入り</a></dd>
@@ -85,11 +85,11 @@
     <nav class="nav">
         <ul>
             <li><a href="<?php echo home_url(); ?>/service/">サービス</a></li>
-            <li><a href="<?php echo home_url(); ?>/blog/">アニエラブログ</a></li>
+            <li><a href="https://mag.aniera.jp/" target="_blank">アニエラブログ</a></li>
             <li><a href="<?php echo home_url(); ?>/purchase/">宅配買取</a></li>
         </ul>
         <div>
-            <a href="<?php echo home_url(); ?>/store/">オンラインストア</a>
+            <a href="https://aniera.jp/" target="_blank">オンラインストア</a>
             <?php
             $args = array(
                 'post_type'        => 'store',

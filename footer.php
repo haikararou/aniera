@@ -19,7 +19,7 @@
                 <div>
                     <dl>
                         <dt><a href="<?php echo home_url(); ?>/service/">サービス</a></dt>
-                        <dt><a href="<?php echo get_post_type_archive_link('blog'); ?>">アニエラブログ</a></dt>
+                        <dt><a href="https://mag.aniera.jp/" target="_blank">アニエラブログ</a></dt>
                         <dt><a href="<?php echo home_url(); ?>/purchase/">宅配買取</a></dt>
                         <dd><a href="<?php echo esc_url(home_url('purchase/kaitori-guide')); ?>">宅配買取の流れ</a></dd>
                         <dd><a href="<?php echo esc_url(home_url('purchase/packing')); ?>">梱包ガイド</a></dd>
@@ -31,7 +31,7 @@
                 </div>
                 <div>
                     <dl>
-                        <dt><a href="<?php echo get_post_type_archive_link('store'); ?>">オンラインストア</a></dt>
+                        <dt><a href="https://aniera.jp/" target="_blank">オンラインストア</a></dt>
                         <dt><span>運営店舗</span></dt>
                         <dd><a href="http://eastend-music.com/" target="_blank">いーすとえんど！</a></dd>
                         <dd><a href="https://blackrose-otome.com/" target="_blank">ブラックローズ</a></dd>
